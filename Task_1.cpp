@@ -1,7 +1,6 @@
 #include <iostream>
 #include <chrono>   
 #include <future>   
-#include <algorithm>
 #include <ctime>
 #include <string>
 #include <limits> 
@@ -204,4 +203,5 @@ void quickSort(int array[], int left, int right)
 	}
 	if (left < j) quickSort(array, left, j);
 	if (i < right) quickSort(array, i, right);
+
 }
